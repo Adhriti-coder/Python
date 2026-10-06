@@ -1,0 +1,12 @@
+a=6
+a+=5
+print(a)
+b=7
+b-=3
+print(b)
+c=16
+d=16//5
+print(d)
+a=19
+a=a%3
+print(a)
