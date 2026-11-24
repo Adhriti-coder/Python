@@ -1,0 +1,22 @@
+print("===== SCHOOL SNACK COUNTER =====")
+print()
+snack_box1 = {"Chips", "Chocolates", "Sandwiches", "Flan"}
+snack_box2 = {"Cheese Crackers","Cookies", "Sandwiches", "Candy"}
+print("Snack box 1: ", snack_box1)
+print("Snack box 2: ", snack_box2)
+print("-------------------------------------")
+snack_box1.add("Pastry")
+print("After adding a snack to Snack box 1: ", snack_box1)
+print("Common snacks in both boxes: ", snack_box1.intersection(snack_box2))
+print("-------------------------------------")
+import array as arr
+snack_count = arr.array("i", [4, 3, 5, 1])
+print("Snacks count: ", snack_count)
+snack_count.insert(2, 7)
+snack_count.append(5)
+print("Snacks count after adding more numbers: ", snack_count)
+print("Number of 5s in the Snacks count: ", snack_count.count(5))
+snack_count.reverse()
+print("Snacks count after reversing: ", snack_count)
+print("--------------------------------------")
+print("===============================================")
